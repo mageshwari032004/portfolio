@@ -1,0 +1,216 @@
+@page {
+    margin: 0cm;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: url("fonts/roboto/v30/KFOjCnqEu92Fr1Mu51TjASc6CsE.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: url("fonts/roboto/v30/KFOkCnqEu92Fr1MmgVxIIzc.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url("fonts/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc9.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc9.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url("fonts/roboto/v30/KFOlCnqEu92Fr1MmYUtfBBc9.ttf") format('truetype');
+}
+
+html,body{
+    margin: 0;
+    font-size: 13px;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-print-color-adjust:exact !important;
+    print-color-adjust: exact !important;
+}
+
+.header{
+    background: #559de1;
+    background: -webkit-linear-gradient(45deg, #F134FF, #559de1);
+    background: linear-gradient(45deg, #F134FF, #559de1);
+    background-repeat: no-repeat;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+
+.round-profile{
+    width: 100vw;
+    max-width: 10em;
+    height: calc(100vw * (15/16));
+    max-height: calc(10em * (15/16));
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.round-profile img{
+    margin-top: 5px;
+    border-radius: 50%;
+    
+    border: solid 1px #559de1;
+    outline: solid 4px #f1f1f1;
+    outline-offset: 3px;
+    
+    height: 100%;
+    width: auto;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #559de1;
+}
+
+
+
+.header li {
+    float: left;
+    list-style: none;
+}
+
+.header li a {
+    font-size: 14px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header li a:hover, .active {
+    background-color: #8dc7fe;
+}
+
+
+ol li{
+    padding: 5px 0;
+    list-style: none;
+    font-size: 18px;
+}
+
+
+.color1{
+    color: #feecff;
+}
+
+.titleHead{
+    font-size: 52px;
+    font-weight: 500;
+    /* border: 1px solid #559de1;
+    background: #559de1; */
+    color: #828282;
+    padding: 4px 10px;
+    /* border-radius: 50px 25px; */
+}
+
+.content{
+    margin-top: 50px;
+    /* padding-left: 20px; */
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.content p:first-child{
+    padding: 2px 0px;
+    font-size: 24px;
+    /* padding-left: 10px; */
+}
+
+.content p:last-child{
+    padding: 2px 0px;
+    font-size: 16px;
+    /* padding-left: 10px; */
+}
+
+.content table{
+    padding-top: 20px;
+    /* padding-left: 10px; */
+}
+
+.content ul{
+    padding: 0px;
+    list-style: none;
+}
+
+.content ul li{
+    padding: 2px 0px;
+    list-style: none;
+    font-size: 24px;
+}
+
+.text1{
+    font-size: 10px;
+}
+.text2{
+    font-size: 15px;
+}
+.text3{
+    font-size: 18px;
+}
+
+.text4{
+    font-size: 24px;
+}
+
+.text5{
+    font-size: 28px;
+}
+
+.tblContent td{
+    min-width: 150px;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+.tblContent td:last-child{
+    min-width: 100%;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+.roundSqure{
+    width: 100vw;
+    height: calc(100vw * (15/16));
+    max-height: calc(10em * (15/16));
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.roundSqure img{
+    margin-top: 5px;
+    border-radius: 3%;
+    border: solid 1px #024B78;
+    width: 700px;
+}
