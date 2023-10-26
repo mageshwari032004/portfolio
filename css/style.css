@@ -111,6 +111,11 @@ html,body{
 
 .header li a:hover, .active {
     background-color: #8dc7fe;
+    color: #024b78;
+}
+
+.header li .active{
+    color: #024b78;
 }
 
 
